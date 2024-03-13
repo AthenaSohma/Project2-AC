@@ -129,10 +129,6 @@ html {
     background-color: rgb(255, 255, 255);
 }
 
-.link:hover{
-    color: red;
-}
-
 .list {
     font-family: Vollkorn;
     color: white;
@@ -145,14 +141,6 @@ html {
     font-size: 25px;
     bottom: 130px;
     left: 5px;
-}
-
-.back {
-    cursor: pointer;
-}
-
-.back:hover{
-    color: red;
 }
 
 .location {
