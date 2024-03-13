@@ -1,0 +1,174 @@
+html {
+    background-color: black;
+}
+
+.header-text {
+    font-family: Vollkorn;
+    font-size: 35px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 10;
+    color:white;
+    z-index: 3;
+    position: relative;
+}
+
+.map-full {
+    background-image: url("Outside.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 230px;
+    width: 230px;
+    position: fixed;
+}
+
+.map-box {
+    top: 5%;
+    left: 85%;
+    height: 100vh;
+    width: 100vh;
+    position: fixed;
+}
+
+.image-full {
+    background-image: url("Lookout_Tower.png");    
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 50;
+    margin-right: auto;
+    margin-left:auto;
+    position:relative;
+    opacity: 40%;;
+}
+
+.image-box {
+    top: 0px;
+    height: 200vh;
+    width: 200vh;
+    position: fixed;
+}
+
+.option {
+    font-family: Vollkorn;
+    color: white;
+    opacity: 100%;
+    height: 30px;
+    width: 510px;
+    margin: 10px 0 0 40px;
+    padding: 10px;
+    bottom: 50px;
+    position: absolute;
+    z-index: 10;
+    font-size: 20px;
+}
+
+.dialogue {
+    font-family: Vollkorn;
+    color: white;
+    opacity: 100%;
+    height: 30px;
+    width: 710px;
+    margin: 10px 0 0 40px;
+    padding: 10px;
+    bottom: 95px;
+    position: absolute;
+    z-index: 10;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.body-text {
+    font-family: Vollkorn;
+    font-weight: 300;
+    display: block;
+    height: auto;
+    width: 500px;
+    padding: 40px;
+    margin: 40px auto 100px auto ;
+    color:black;
+    background-color: rgb(221, 200, 173);
+    line-height: 1.2em;
+    z-index: 2;
+    position: relative;
+}
+
+.narrative {
+    font-family: Vollkorn;
+    color: white;
+    opacity: 100%;
+    height: auto;
+    width: 510px;
+    margin: 10px 0 0 40px;
+    padding: 10px 10px 0 0;
+    line-height: 1.5em;
+
+    left: 1%;
+    top: 50px;
+    text-wrap: auto;
+    position: absolute;
+    z-index: 10;
+    font-size: 16px;
+    background-color: black;
+}
+
+.link {
+    font-family: Vollkorn;
+    display: block;
+    height: auto;
+    width: auto;
+    padding: 7px;
+    margin: 0 0 10px 0 ;
+    color:rgb(255, 255, 255);
+    line-height: 1.2em;
+    bottom: 3%;
+    right: 4%;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+
+.list {
+    font-family: Vollkorn;
+    color: white;
+    display: block;
+    height: auto;
+    padding: 0 0 0 40px;
+    line-height: 1.2em;
+    z-index: 2;
+    position: absolute;
+    font-size: 25px;
+    bottom: 130px;
+    left: 5px;
+}
+
+.location {
+    background-color:red;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 20px;
+    left: 172px;
+}
+
+.note {
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    opacity: 100%;
+    display:block;
+    width: 55px;
+    height: 75px;
+    background-color:rgb(60, 60, 60);
+    border: 1px solid black;
+    cursor:pointer;
+}
+
+.note:hover {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
