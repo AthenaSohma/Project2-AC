@@ -110,35 +110,3 @@ html {
     font-size: 25px;
     bottom: 130px;
 }
-
-.house {
-    cursor: pointer;
-}
-
-.house:hover{
-    color: red;
-}
-
-.cornfield {
-    cursor: pointer;
-}
-
-.cornfield:hover{
-    color: red;
-}
-
-.car {
-    cursor: pointer;
-}
-
-.car:hover{
-    color: red;
-}
-
-.lake {
-    cursor: pointer;
-}
-
-.lake:hover{
-    color: red;
-}
