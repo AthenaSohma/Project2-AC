@@ -8,7 +8,7 @@ window.onload = function(){
         if(event.key == "1"){
             window.location.replace("MainFloor/index.html")
         }else if (event.key == "2"){
-            window.location.replace("Corn_LR/index.html")
+            window.location.replace("../Corn_LR/index.html")
         }else if (event.key == "3"){
             window.location.replace("8_Lacrimosa/index.html")
         }else if (event.key == "4"){
