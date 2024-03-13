@@ -154,8 +154,8 @@ html {
 
 .note {
     position: absolute;
-    bottom: 15%;
-    left: 35%;
+    bottom: 15vh;
+    left: 72vh;
     opacity: 100%;
     display:block;
     width: 20px;
