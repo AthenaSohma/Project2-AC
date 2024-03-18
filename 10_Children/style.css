@@ -125,7 +125,6 @@ html {
     right: 4%;
     position: absolute;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
 }
 
 .list {
@@ -152,19 +151,18 @@ html {
 }
 
 .note {
+    background-image: url("Open_Field_Note.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
-    top: 54%;
-    right: 53.7%;
-    opacity: 80%;
+    bottom: 35%;
+    right: 50%;
+    opacity: 100%;
     display:block;
-    width: 20px;
-    height: 20px;
-    background-color:rgb(60, 60, 60);
+    width: 85px;
+    height: 75px;
     cursor:pointer;
-}
-
-.note:hover {
-    background-color: red;
 }
 
 .hidden {
