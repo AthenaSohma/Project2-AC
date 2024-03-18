@@ -126,7 +126,6 @@ html {
     right: 4%;
     position: absolute;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
 }
 
 .list {
@@ -153,20 +152,20 @@ html {
 }
 
 .note {
+    background-image: url("Lake_Note.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
-    bottom: 9.8%;
-    right: 30.4%;
-    opacity: 60%;
+    bottom: 6%;
+    right: 30%;
+    opacity: 100%;
     display:block;
-    width: 15px;
-    height: 15px;
-    background-color:rgb(60, 60, 60);
+    width: 85px;
+    height: 75px;
     cursor:pointer;
 }
 
-.note:hover {
-    background-color: red;
-}
 
 .hidden {
     display: none;
