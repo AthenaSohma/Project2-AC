@@ -27,4 +27,11 @@ window.onload = function(){
 
     $(".note").click(openTitle);    
     $(".header-text").click(openTitle);
+
+    function openLink(){
+        $(".link").toggleClass("hidden")
+    }
+
+    $(".note").click(openLink);    
+    $(".link").click(openLink);
 }

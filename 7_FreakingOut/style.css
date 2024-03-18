@@ -126,7 +126,6 @@ html {
     right: 4%;
     position: absolute;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
 }
 
 .list {
@@ -153,20 +152,18 @@ html {
 }
 
 .note {
+    background-image: url("Bathroom_Note.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
-    display: block;
-    bottom: 39%;
-    right: 37.5%;
-    opacity: 100%;
+    bottom: 36%;
+    right: 37%;
+    opacity: 60%;
     display:block;
-    width: 20px;
-    height: 20px;
-    background-color:rgb(60, 60, 60);
+    width: 85px;
+    height: 75px;
     cursor:pointer;
-}
-
-.note:hover {
-    background-color: red;
 }
 
 .hidden {
