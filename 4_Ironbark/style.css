@@ -126,7 +126,6 @@ html {
     right: 4%;
     position: absolute;
     cursor: pointer;
-    background-color: rgb(255, 255, 255);
 }
 
 .list {
@@ -153,20 +152,18 @@ html {
 }
 
 .note {
+    background-image: url("Lookout_Note.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: absolute;
-    bottom: 10%;
+    bottom: 15%;
     right: 50%;
     opacity: 100%;
     display:block;
-    width: 55px;
+    width: 85px;
     height: 75px;
-    background-color:rgb(60, 60, 60);
-    border: 1px solid black;
     cursor:pointer;
-}
-
-.note:hover {
-    background-color: red;
 }
 
 .hidden {
